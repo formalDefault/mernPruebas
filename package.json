@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "npm run dev",
     "postinstall": "npm run webpack",
     "dev": "nodemon src/index.js",
     "webpack": "webpack --mode development --watch"
